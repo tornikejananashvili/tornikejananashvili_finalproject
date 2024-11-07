@@ -1,0 +1,70 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* 480px - 320px */
+
+@media (max-width: 480px) {
+    header {
+        padding: 32px 20px;
+    }
+
+    .logo_img {
+        width: 40px;
+        height: 40px;
+    }
+
+    footer {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .footer_article_margin {
+        margin-bottom: 40px;
+    }
+
+    .products_section {
+        padding: 32px 20px;
+    }
+
+    .catalog_products {
+        padding: 32px 20px;
+    }
+
+    .catalog_products_sort_button {
+        width: 36px;
+        height: 32px;
+    }
+
+    .catalog_products_sort_button_text {
+        display: none;
+    }
+
+    .catalog_products_sort_button{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover_figure {
+        height: 320px;
+    }
+
+    .products_section {
+        padding: 32px 8px;
+    }
+
+    .catalog_products {
+        padding: 32px 8px;
+    }
+}

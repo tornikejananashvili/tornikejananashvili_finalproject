@@ -1,0 +1,80 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* 1439px - 769px */
+
+@media (max-width: 1439px) {
+    header {
+        padding: 16px 32px;
+    }
+
+    .menu_ul {
+        display: none;
+    }
+
+    .burger_button {
+        display: block;
+    }
+
+    /* horziontal scroll */
+
+    .cards {
+        overflow-x: scroll;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 0 1252px;
+                flex: 1 0 1252px
+    }
+
+    .products_section{
+        padding-inline: 96px 32px;
+    }
+
+    .catalog_products{
+        padding: 96px 32px;
+    }
+
+    .products_cards{
+        -ms-grid-columns: .5fr .5fr;
+        grid-template-columns: .5fr .5fr;
+        -ms-grid-rows: 400px 400px 400px;
+        grid-template-rows: 400px 400px 400px;
+    }
+
+    .products_cards > *:nth-child(1){
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+
+    .products_cards > *:nth-child(2){
+        -ms-grid-row: 1;
+        -ms-grid-column: 2;
+    }
+
+    .products_cards > *:nth-child(3){
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+
+    .products_cards > *:nth-child(4){
+        -ms-grid-row: 2;
+        -ms-grid-column: 2;
+    }
+
+    .products_cards > *:nth-child(5){
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+
+    .products_cards > *:nth-child(6){
+        -ms-grid-row: 3;
+        -ms-grid-column: 2;
+    }
+
+    .next_page_card{
+        display: none;
+    }
+}
